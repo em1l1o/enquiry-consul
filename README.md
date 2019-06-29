@@ -12,8 +12,19 @@ Please Note:
 * Dependent on Diplomat. It's a rails http wrapper. The only wrapper I've found written in Ruby.
 * Visit Diplomat: https://github.com/WeAreFarmGeek/diplomat
 
+## Installation
+Add this to your Gemfile
+```
+gem 'enquiry-consul'
+```
+
+Execute
+```
+bundle install
+```
+
 ## Basic Usage
-*Available methods (for now): GET, POST, PUT*
+**Available methods (for now): GET, POST, PUT**
 ```
 Enquiry.get(<YourServiceName>, <Api>, data: <Body>, reconnect: <RetryTimes>)
 ```
