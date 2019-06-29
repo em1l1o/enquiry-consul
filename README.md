@@ -1,7 +1,7 @@
 # Enquiry
 Enquiry is a very simple service discovery client, rails edition.
 
-I haven't found any Consul client provides services as Hystrix, Load Balancing, etc. in Rails. That's the why Enquiry was born. However, it's now in a pretty early phrase, providing basic service discovery, load balancing, breaker functions.
+I haven't found any Consul client provides services as Hystrix, Load Balancing, etc. in Rails. That's why Enquiry was born. However, it's now in a pretty early phrase, providing basic service discovery, load balancing, breaker functions.
 
 ## **You are more than welcome to contribute to this project!**
 

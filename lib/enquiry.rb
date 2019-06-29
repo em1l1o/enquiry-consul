@@ -5,7 +5,7 @@
 # @param data [Hash]
 # @param reconnect [Integer]
 # @return [Hash]
-# 用例 ServiceDiscovery.post('javaPay', 'checkPayment', data: payment_params, reconnect: 5)
+# 用例 Enquiry.post('javaPay', 'checkPayment', data: payment_params, reconnect: 5)
 # TODO: (zhangjiayuan) 目前是 demo，之后会增加更多功能
 
 module Enquiry
