@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'enquiry-consul'.freeze
-  s.version = '0.1.6'.freeze
+  s.version = '0.1.7'.freeze
   s.date = '2019-06-29'.freeze
   s.summary = "Early access edition".freeze
   s.description = 'simple discovery service with consul'.freeze
