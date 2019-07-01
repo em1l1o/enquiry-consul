@@ -9,7 +9,9 @@ Please notify me if anyone knows rounded Consul clients in Rails. :)
 
 Please Note:
 * Use it in Rails.
+* `require 'enquiry'` before using. I'm sorry for this stupid line. I'll Fix it soon.
 * Dependent on Diplomat. It's a rails http wrapper. The only wrapper I've found written in Ruby.
+* Config your Consul cluster IP and port with Diplomat.
 * Visit Diplomat: https://github.com/WeAreFarmGeek/diplomat
 
 ## Installation
@@ -26,6 +28,8 @@ bundle install
 ## Basic Usage
 **Available methods (for now): GET, POST, PUT**
 ```
+require 'enquiry'
+
 Enquiry.get(<YourServiceName>, <Api>, data: <Body>, reconnect: <RetryTimes>)
 ```
 ## **Have Fun!**
