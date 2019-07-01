@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   s.require_paths = ["lib".freeze]
   s.license = 'MIT'.freeze
-  s.homepage = 'https://github.com/em1l1o/Enquiry'.freeze
+  s.homepage = 'https://github.com/em1l1o/enquiry-consul'.freeze
 
   s.add_dependency(%q<diplomat>, [">= 0"])
 end
