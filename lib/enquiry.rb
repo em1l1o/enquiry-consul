@@ -9,6 +9,7 @@
 # TODO: (zhangjiayuan) 目前是 demo，之后会增加更多功能
 
 module Enquiry
+  require 'diplomat'
   require 'enquiry/balancer'
   require 'enquiry/breaker'
 
