@@ -12,6 +12,7 @@ Please Note:
 * Dependent on Diplomat. It's a rails http wrapper. The only wrapper I've found written in Ruby.
 * Config your Consul cluster IP and port with Diplomat.
 * Visit Diplomat: https://github.com/WeAreFarmGeek/diplomat
+* `require 'enquiry-consul'` if necessary.
 
 ## Installation
 Add this to your Gemfile
