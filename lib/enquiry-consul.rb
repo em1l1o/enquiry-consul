@@ -5,13 +5,14 @@
 # @param data [Hash]
 # @param reconnect [Integer]
 # @return [Hash]
-# 用例 Enquiry.post('javaPay', 'checkPayment', data: payment_params, reconnect: 5)
+# 用例 EnquiryConsul.post('javaPay', 'checkPayment', data: payment_params, reconnect: 5)
 # TODO: (zhangjiayuan) 目前是 demo，之后会增加更多功能
 
-module Enquiry
-  require 'diplomat'
-  require 'enquiry/balancer'
-  require 'enquiry/breaker'
+require 'diplomat'
+
+module EnquiryConsul
+  require 'enquiry-consul/balancer'
+  require 'enquiry-consul/breaker'
 
   %w[get post put].each do |method|
     define_singleton_method method do |service_name, api, data: {}, reconnect: 3|
