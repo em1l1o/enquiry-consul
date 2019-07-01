@@ -1,5 +1,5 @@
 # 负载均衡模块
-module Enquiry::Balancer
+module EnquiryConsul::Balancer
   module_function
 
   def pick_service(service_name, services)

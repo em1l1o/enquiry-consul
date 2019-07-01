@@ -1,5 +1,5 @@
 # 熔断器，主导熔断机制
-module Enquiry::Breaker
+module EnquiryConsul::Breaker
   module_function
 
   def run(request, services, reconnect: 3)
@@ -19,7 +19,7 @@ module Enquiry::Breaker
 
   def reassemble_request(request, services)
     service_name = services.first.ServiceName
-    service = Enquiry::Balancer.pick_service(service_name, services)
+    service = EnquiryConsul::Balancer.pick_service(service_name, services)
     uri = URI("http://#{service.ServiceAddress}:#{service.ServicePort}#{request.uri.path}")
     request.instance_variable_set(:@uri, uri)
     request['host'] = uri.host
