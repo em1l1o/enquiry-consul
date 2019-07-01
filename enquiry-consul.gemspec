@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors = ["Emilio Chang".freeze]
   s.email = 'zhangjiayuan93@hotmail.com'.freeze
   s.files = `git ls-files`.split("\n")
-  s.require_paths = ["lib".freeze]
+  s.require_paths = ["lib"]
   s.license = 'MIT'.freeze
   s.homepage = 'https://github.com/em1l1o/enquiry-consul'.freeze
 
